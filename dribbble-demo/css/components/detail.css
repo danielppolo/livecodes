@@ -1,0 +1,20 @@
+.detail {
+
+}
+
+.detail p {
+  margin: 0;
+}
+
+.detail p:first-child{
+  display: flex;
+  align-items: center;
+}
+
+.detail p:first-child > span{
+  margin-left: 5px;
+}
+
+.detail p:last-child{
+  color: gray;
+}

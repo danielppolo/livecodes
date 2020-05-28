@@ -1,0 +1,16 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  transition: 800ms;
+  border-radius: 5px;
+  padding: 0 20px
+}
+
+.nav-link:hover {
+  background-color: #f5f5f7;
+}
+
+.nav-link p{
+  margin-left: 1em;
+}
