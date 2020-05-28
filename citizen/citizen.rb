@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Citizen
   def initialize(first_name = '', last_name = '', age)
     @first_name = first_name

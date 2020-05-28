@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class SlotMachine
   POINTS = {
     joker: 50,
@@ -7,7 +5,8 @@ class SlotMachine
     bell: 30,
     seven: 20,
     cherry: 10
-  }.freeze
+  }
+  
   def def(initialize); end
 
   def score(options)
