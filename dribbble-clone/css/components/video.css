@@ -1,0 +1,27 @@
+.video {
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-main {
+  width: 100%;
+  height: 200px;
+}
+
+.video-thumb {
+  flex-basis: 32%;
+  height: 80px;
+}
+
+.video-controls {
+  color: #34c154;
+  font-size: 48px;
+}
+
+.video-thumb .video-controls {
+  font-size: 24px;
+}
